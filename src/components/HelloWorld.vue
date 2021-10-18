@@ -11,7 +11,8 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-    msg2: String
+    msg2: String,
+    age: String
   }
 }
 </script>
