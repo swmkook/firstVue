@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
      <h1>{{ msg2 }}</h1>
+     <h1>{{ msg3 }}</h1>
    
   </div>
 </template>
@@ -12,6 +13,7 @@ export default {
   props: {
     msg: String,
     msg2: String,
+    msg3: String,
     age: String
   }
 }
